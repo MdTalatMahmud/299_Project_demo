@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signin"
+    android:orientation="vertical"
+    tools:context=".SignInActivity">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signInEmailEditTextId"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordEditTextId"
+        android:inputType="textEmailAddress"
+        android:hint="Password"
+        />
+
+    <Button
+        android:id="@+id/signInButtonId"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        />
+
+    <TextView
+        android:id="@+id/signUpTextViewId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you not registered? Sign Up"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressbarIdSignIn"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>
